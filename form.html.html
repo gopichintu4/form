@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <style>
+         #form{
+               background-color:rgb(118, 50, 50);
+               width:350px;
+               color:white;
+               padding:20px;
+               border-radius: 10px;
+               
+
+               }
+            label{
+                display: inline-block;
+                width:150px;
+                margin:0.1cm;
+                }
+     </style>
+   </head>
+
+<body  style="background-color: rgb(184, 114, 114);">
+
+    <center><div id="form">
+      <form   action="welcome.html"   model="post" target="-blank"    >
+        <label> Name :</label>
+         <input type="text"  name="name" placeholder="your name" "  required autofocus/> <br> <br>
+        <label> Email : </label>
+    
+        <input type="email" name="email" placeholder="your email"  required/> <br> <br>
+        <label>password:</label> <input type="password"   min="8"name="pwd"  required/> <br> <br>
+        <label> phone Number :</label> 
+        <input type="number" max="10" name="num"    required> <br> <br>
+        <label>  Gender:  </label>
+          male<input type="radio" name="radio" >   female<input type="radio" name="radio">  other<input type="radio" name="radio"  required> <br> <br>
+        <label>zipcode : </label> <input type="number" name="code"  required/> <br> <br>
+        <label>Language: </label>
+        <select  >
+            <option value="sel"> select lang</option>
+            <option value="tel">  telugu</option>
+            <option value="hin">  hindi</option>
+            <option value="eng">  english</option>
+        </select> <br> <br>  
+    
+        <label>About: </label> <br> 
+         <textarea rows="5" cols="40" > </textarea  > <br> <br>
+         
+         <input    type="reset" value="clear"> <br> <br>
+         
+         <input  type="submit"  value="Register" >
+        </form>
+    </div></center>
+
+  </body>
+
+
+
+
+
+</html>
